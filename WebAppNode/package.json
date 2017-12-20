@@ -1,0 +1,9 @@
+{
+  "name": "web-app-node",
+  "version": "0.0.0",
+  "description": "WebAppNode",
+  "main": "server.js",
+  "author": {
+    "name": "paso01"
+  }
+}

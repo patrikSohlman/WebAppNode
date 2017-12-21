@@ -1,0 +1,23 @@
+﻿<!doctype html>
+@html.extend('layout',function(model){
+	@html.block("body", function(model){
+		<h1>DANIELÄGER</h1>
+		
+		@if (model.error){
+			<p class ="text-error">Error occured: @model.error</p>
+		}
+		@model.devices.forEach(function(device){
+		<div><a href="#">@device.name</a></div>
+			device.notes.forEach(function(note){
+		<div>@note.type</div>
+			
+		})
+		})
+		
+
+
+		
+		
+		
+	})
+})

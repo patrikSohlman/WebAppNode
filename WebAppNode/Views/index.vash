@@ -6,12 +6,16 @@
 		@if (model.error){
 			<p class ="text-error">Error occured: @model.error</p>
 		}
-		@model.devices.forEach(function(device){
-		<div><a href="#">@device.name</a></div>
-			device.notes.forEach(function(note){
-		<div>@note.type</div>
+		<div class="row">
+			<div class="list-group col-lg-6">
+				@model.devices.forEach(function(device){
+				<div><a href="#">@device.name</a></div>
+					device.notes.forEach(function(note){
+				<div>@note.type</div>
 			
-		})
+				})
+			</div>
+		</div>
 		})
 		
 

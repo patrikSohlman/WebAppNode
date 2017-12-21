@@ -41,11 +41,15 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="server.js" />
+    <Content Include=".bowerrc" />
     <Content Include="package.json" />
     <Content Include="public\css\site.css">
       <SubType>Code</SubType>
     </Content>
     <Content Include="README.md" />
+    <Content Include="Views\.bowerrc">
+      <SubType>Code</SubType>
+    </Content>
     <Content Include="Views\index.vash">
       <SubType>Code</SubType>
     </Content>
@@ -58,6 +62,7 @@
     <Folder Include="data\" />
     <Folder Include="public\" />
     <Folder Include="public\css\" />
+    <Folder Include="public\lib\" />
     <Folder Include="Views\" />
   </ItemGroup>
   <!-- Do not delete the following Import Project.  While this appears to do nothing it is a marker for setting TypeScript properties before our import that depends on them. -->

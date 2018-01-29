@@ -40,6 +40,8 @@
     <Compile Include="data\seedData.js">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="public\lib\Chart.min.js" />
+    <Compile Include="public\lib\index.js" />
     <Compile Include="server.js" />
     <Content Include=".bowerrc" />
     <Content Include="package.json" />

@@ -1,9 +1,12 @@
 {
-  "name": "web-app-node",
-  "version": "0.0.0",
-  "description": "WebAppNode",
-  "main": "server.js",
   "author": {
     "name": "paso01"
-  }
+  },
+  "description": "WebAppNode",
+  "main": "server.js",
+  "name": "web-app-node",
+  "scripts": {
+    "start": "node server"
+  },
+  "version": "0.0.0"
 }

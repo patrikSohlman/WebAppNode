@@ -40,6 +40,7 @@
     <Compile Include="data\seedData.js">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="IoThub\iot-hub.js" />
     <Compile Include="public\lib\Chart.min.js" />
     <Compile Include="public\lib\index.js" />
     <Compile Include="server.js" />
@@ -62,6 +63,7 @@
   <ItemGroup>
     <Folder Include="Controllers\" />
     <Folder Include="data\" />
+    <Folder Include="IoThub\" />
     <Folder Include="public\" />
     <Folder Include="public\css\" />
     <Folder Include="public\lib\" />

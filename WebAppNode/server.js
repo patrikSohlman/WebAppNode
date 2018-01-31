@@ -1,6 +1,6 @@
 'use strict';
 var http = require('http');
-var port = process.env.PORT || 1337;
+var port = process.env.PORT || 443;
 var express = require('express');
 var WebSocket = require('ws');
 var moment = require('moment');
@@ -46,7 +46,7 @@ iotHubReader.startReadMessage(function (obj, date) {
         console.error(err);
     }
 });
-var port = normalizePort(process.env.PORT || '443');
+port = normalizePort(process.env.PORT || '443');
 server.listen(port, function listening() {
     console.log('Listening on %d', server.address().port);
 });
